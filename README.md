@@ -62,22 +62,22 @@ also attached the text file in our submission under codes.txt.
 
 # Instructions Format:
 
-AND Rd,Rn,Rm / AND Rd,Rn,imm
-ANDS Rd,Rn,Rm / ANDS Rd,Rn,imm
-ORR Rd,Rn,Rm / ORR Rd,Rn,imm
-ORRS Rd,Rn,Rm / ORRS Rd,Rn,imm
-ADD Rd,Rn,Rm / ADD Rd,Rn,imm
-ADDS Rd,Rn,Rm / ADDS Rd,Rn,imm
-SUB Rd,Rn,Rm / SUB Rd,Rn,imm
-SUBS Rd,Rn,Rm / SUBS Rd,Rn,imm
-MUL Rd,Rn,Rm / MUL Rd,Rn,imm
-DIV Rd,Rn,Rm / DIV Rd,Rn,imm
-LDR Rt,[Rn] / LDR Rt,[Rn,imm11]
-STR Rt,[Rn] / STR Rt,[Rn,imm11]
-B label
-BL label
-CBZ Rt,label
-RET
-B.EQ label
-MOV Rd, Rm / MOV Rd,imm
-When the labeling line is to be branched to the format is “(label): ” before the command.
+AND Rd,Rn,Rm / AND Rd,Rn,imm  
+ANDS Rd,Rn,Rm / ANDS Rd,Rn,imm  
+ORR Rd,Rn,Rm / ORR Rd,Rn,imm  
+ORRS Rd,Rn,Rm / ORRS Rd,Rn,imm  
+ADD Rd,Rn,Rm / ADD Rd,Rn,imm  
+ADDS Rd,Rn,Rm / ADDS Rd,Rn,imm  
+SUB Rd,Rn,Rm / SUB Rd,Rn,imm  
+SUBS Rd,Rn,Rm / SUBS Rd,Rn,imm  
+MUL Rd,Rn,Rm / MUL Rd,Rn,imm  
+DIV Rd,Rn,Rm / DIV Rd,Rn,imm  
+LDR Rt,[Rn] / LDR Rt,[Rn,imm11]  
+STR Rt,[Rn] / STR Rt,[Rn,imm11]  
+B label  
+BL label  
+CBZ Rt,label  
+RET  
+B.EQ label  
+MOV Rd, Rm / MOV Rd,imm  
+When the labeling line is to be branched to the format is “(label): ” before the command.  
