@@ -81,3 +81,14 @@ RET
 B.EQ label  
 MOV Rd, Rm / MOV Rd,imm  
 When the labeling line is to be branched to the format is “(label): ” before the command.  
+
+# How to use:
+1. Download AngelakosVirtual.circ and VirtualCompilier.py.
+2. Have Logisim-Evolution and at least Python 3.0 installed.
+3. Follow the directions here or in VirtualManual.pdf to write the code for your program in the VirtualCompilier.py.
+4. Run the VirtualCompilier.py to recieve the machine code for your instructions.
+5. Start Logisim and load the CPU using File -> Open and selecting AngelakosVirtual.circ.
+6. Load the instructions into the top RAM by right-clicking on the address box and clicking load image and select the file that the compiler just produced. 
+7. If you wish you can write whichever data you like into the other RAM for your program. Unfortunately our compilier only supports instruction compiliation.
+8. Click "Simulate" at the top of Logisim and click "Auto-Tick Enabled".
+9. Watch your program run.
